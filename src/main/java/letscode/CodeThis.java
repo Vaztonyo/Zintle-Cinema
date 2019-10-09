@@ -6,4 +6,8 @@ public class CodeThis {
         return "Hello, " + name;
     }
 
+    public static void greetFailure() throws Exception {
+        throw new LetsCodeException();
+    }
+
 }
